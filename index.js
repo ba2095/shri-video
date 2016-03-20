@@ -88,7 +88,7 @@
         break;
 
       default:
-        console.log("Inknown filter: " + filterName);
+        console.log("Unknown filter: " + filterName);
     }
   };
 
