@@ -16,3 +16,6 @@
 
 Вероятно, после запуска программы ваш браузер повиснет. Не расстраивайтесь и начните с отключения главного 
 цикла — это поможет подойти к решению. Только потом не забудьте включить его обратно.
+
+PS: For real optimizations we should use canvas-only painting(same method) for all filters,
+    but this is just for fun first time w/ WebRTC
