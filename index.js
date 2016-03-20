@@ -59,12 +59,12 @@
       case "invert":
       case "grayscale":
         if (filterName === "invert") {
-          video.classList.remove("camera__video___grayscale");
-          video.classList.add("camera__video___invert");
+          video.classList.toggle("camera__video___grayscale", false);
+          video.classList.toggle("camera__video___invert", true);
 
         } else {
-          video.classList.remove("camera__video___invert");
-          video.classList.add("camera__video___grayscale");
+          video.classList.toggle("camera__video___invert", false);
+          video.classList.toggle("camera__video___grayscale", true);
 
         }
         canvas.classList.add("camera__element___hidden");
@@ -82,6 +82,9 @@
           thresholdInterval = setInterval(captureFrame, 16);
 
         }
+        video.classList.toggle("camera__video___grayscale", false);
+        video.classList.toggle("camera__video___invert", false);
+
         video.classList.add("camera__element___hidden");
         canvas.classList.remove("camera__element___hidden");
 
