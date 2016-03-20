@@ -29,7 +29,7 @@
       canvas.width = video.videoWidth;
       canvas.height = video.videoHeight;
 
-      filterElem.onchange();
+      applyFilter();
     };
   });
 
