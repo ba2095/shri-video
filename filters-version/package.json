@@ -1,0 +1,14 @@
+{
+  "name": "shri-video",
+  "version": "2.3.2",
+  "description": "Задание на оптимизацию",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.10.0"
+  }
+}
