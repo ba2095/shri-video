@@ -28,7 +28,7 @@
 
 ![](http://i.imgur.com/mXwjIp2.png)
 
-### Сборка
+### Запуск
 ```
 npm i
 npm start
